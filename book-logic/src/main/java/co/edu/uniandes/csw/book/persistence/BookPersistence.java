@@ -5,7 +5,7 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 
 /**
  * @generated
@@ -35,7 +35,7 @@ public class BookPersistence {
     }
 
     public List<BookEntity> findAll() {
-        Query q = em.createQuery("select u from BookEntity u");
+        TypedQuery q = em.createQuery("select u from BookEntity u", BookEntity.class);
         return q.getResultList();
     }
 }
