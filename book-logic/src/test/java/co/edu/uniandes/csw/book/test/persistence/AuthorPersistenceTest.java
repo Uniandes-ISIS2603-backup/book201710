@@ -181,6 +181,7 @@ public class AuthorPersistenceTest {
         AuthorEntity newEntity = authorPersistence.find(entity.getId());
         Assert.assertNotNull(newEntity);
         Assert.assertEquals(entity.getName(), newEntity.getName());
+        Assert.assertEquals(entity.getBirthDate(), newEntity.getBirthDate());
     }
 
     /**
