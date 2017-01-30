@@ -32,15 +32,17 @@ hs_err_pid*
 .tmp/
 /target/
 /book-logic/target/
-/book-api/target/
+/book-web/target/
 
 #NetBeans
 nbactions.xml
-/book-api/nb-configuration.xml
+/book-web/nb-configuration.xml
 
 #Tests
 /book-logic/derby.log
-/book-api/derby.log
+/book-web/derby.log
 
 #Bower
-/book-api/src/main/webapp/bower_components/
+/book-web/src/main/webapp/bower_components/
+book-web/bower.json
+book-web/.bowerrc
