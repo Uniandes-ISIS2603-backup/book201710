@@ -19,7 +19,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/authors")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-public class AuthorService {
+public class AuthorResource {
 
     @Inject
     private AuthorLogic authorLogic;
