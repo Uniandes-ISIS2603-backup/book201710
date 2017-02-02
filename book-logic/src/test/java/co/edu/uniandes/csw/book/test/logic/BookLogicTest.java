@@ -179,7 +179,7 @@ public class BookLogicTest {
     }
 
     /**
-     * rueba para actualizar un Book.
+     * Prueba para actualizar un Book.
      *
      * @generated
      */
